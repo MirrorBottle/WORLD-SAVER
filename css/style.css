@@ -55,7 +55,8 @@ body {
 
 #about hr,
 #goal hr,
-#news hr {
+#news hr,
+#join hr {
     width: 50px;
     height: 2px;
     margin: -1px auto;
@@ -65,7 +66,8 @@ body {
 
 #about,
 #goal,
-#news {
+#news,
+#join {
     color: #000;
     margin-top: 30px;
     padding: 20px;
@@ -76,13 +78,15 @@ body {
 
 #about .about-title,
 #goal .goal-title,
-#news .news-title {
+#news .news-title,
+#join .join-title {
     font-weight: 400;
 }
 
 #about .about-title span,
 #goal .goal-title span,
-#news .news-title span {
+#news .news-title span,
+#join .join-title span {
     font-weight: 600;
 }
 
@@ -155,6 +159,23 @@ body {
 }
 
 /* End of nature news section */
+
+
+/* Join Us section */
+#join {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#join #join-form img {
+
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* End of join us section */
 
 
 
