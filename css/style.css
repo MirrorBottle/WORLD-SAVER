@@ -151,7 +151,7 @@ body {
 }
 
 #news .card-img-overlay {
-    background: linear-gradient(45deg, rgba(196, 194, 194, .7), rgba(196, 194, 194, .3));
+    background: linear-gradient(45deg, rgba(53, 52, 52, 0.7), rgba(48, 47, 47, 0.3));
 }
 
 /* End of nature news section */
