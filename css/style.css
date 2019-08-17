@@ -199,7 +199,8 @@ body {
     border-radius: 0px;
 }
 
-#join #join-form form .form-control:focus {
+#join #join-form form .form-control:focus,
+#join #join-form form button:focus {
     border: none !important;
     outline: 0 !important;
     box-shadow: 0 0 0 0.2rem rgba(187, 187, 187, 0.25) !important;
@@ -207,6 +208,19 @@ body {
 
 #join #join-form form .form-control::-webkit-input-placeholder {
     color: #eee !important;
+}
+
+#join #join-form form button {
+    background: linear-gradient(to right, rgba(196, 194, 194, .8), rgba(95, 95, 95, 0.5));
+    color: #000;
+    border: none;
+    transition: .3s;
+    transform: scale(1)
+}
+
+#join #join-form form button:hover {
+    background: linear-gradient(to left, rgba(196, 194, 194, .8), rgba(95, 95, 95, 0.5));
+    transform: scale(1.05);
 }
 
 /* End of join us section */
@@ -236,5 +250,9 @@ body {
         background-size: cover;
         object-fit: cover;
         width: 100%;
+    }
+
+    #join .join-image {
+        display: none;
     }
 }
