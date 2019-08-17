@@ -192,6 +192,23 @@ body {
     width: 100%;
 }
 
+#join #join-form form .form-control {
+    background: linear-gradient(to right, rgba(53, 52, 52, 0.7), rgba(48, 47, 47, 0.3));
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0px;
+}
+
+#join #join-form form .form-control:focus {
+    border: none !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(187, 187, 187, 0.25) !important;
+}
+
+#join #join-form form .form-control::-webkit-input-placeholder {
+    color: #eee !important;
+}
+
 /* End of join us section */
 
 
